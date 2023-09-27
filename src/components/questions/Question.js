@@ -2,9 +2,11 @@ import React from 'react';
 import './Questions.css';
 import QuestionContent from './QuestionContent';
 import Header from '../shared/navbar/Navbar';
+import Footer from '../shared/footer/Footer';
 
 export default function Question() {
     return (
+        <>
         <div className='bg-encuesta'>
             <Header />
             <div className='container con-position d-flex justify-content-center'>
@@ -48,6 +50,9 @@ export default function Question() {
                     </div>
                 </div>
             </div>
+             <Footer />
         </div>
+       
+        </>
     );
 }

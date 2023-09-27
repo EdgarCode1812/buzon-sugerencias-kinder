@@ -1,0 +1,13 @@
+.bg-footer{
+    position: relative;
+    z-index: 2;
+    background-color: #7c90e7;
+    color: black;
+    font-weight: 400;
+}
+.bg-footer a{
+    color: rgb(233, 231, 243) !important;
+}
+.bg-footer a:hover{
+    color: rgb(214, 208, 241) !important;
+}
