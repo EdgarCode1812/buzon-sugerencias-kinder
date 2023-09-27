@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import './Home.css'
 
 export default function Home() {
@@ -20,7 +21,7 @@ export default function Home() {
                         <p className="p-2">Bienvenido al buzón de sugerencias</p>
                     </div>
                     <div className='btn-start'>
-                    <button type="button" className="btn btn-primary btn-lg pt-2 pb-2 ps-4 pe-4">Iniciar</button>
+                        <Link to="/Encuesta" className="btn btn-primary btn-lg pt-2 pb-2 ps-4 pe-4"> Iniciar </Link>
                     </div>
 
                 </div>
