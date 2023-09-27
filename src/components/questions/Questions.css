@@ -66,7 +66,7 @@
     padding: 8px 15px;
     border-color: transparent transparent black transparent;
     width: 100%;
-    color: #6e6e6e;
+    color: white;
     background-color: transparent;
     letter-spacing: 0.1px;
     font-size: 14px;
@@ -117,16 +117,15 @@
 
 /**modo responsivo/
 /* Estilos para tablets (768px a 1024px de ancho) */
-@media (min-width: 768px) and (max-width: 1024px) {}
-
-/* Estilos  en dispositivos móviles (768px o menos de ancho) */
-@media (max-width: 768px) {
+@media (min-width: 768px) and (max-width: 1024px) {
     .con-ins {
         margin-top: 50px;
         width: 100%;
         background: linear-gradient(10deg, #ffff 5%, #7c90e7ef 70%) 0% 0% no-repeat padding-box;
     }
-
+    .con-ins img {
+        width: 200px;
+    }
     .btn-kinder{
         background-color: #7c90e7ef;
         border-radius: 20px;
@@ -141,9 +140,48 @@
         border-color: #7c90e7ef;
         color: #7c90e7ef;
       }
+}
 
+/* Estilos  en dispositivos móviles (768px o menos de ancho) */
+@media (max-width: 768px) {
+   
+    .con-ins {
+        margin-top: 50px;
+        width: 100%;
+        background: linear-gradient(10deg, #ffff 5%, #7c90e7ef 70%) 0% 0% no-repeat padding-box;
+    }
+    .btn-kinder{
+        background-color: #7c90e7ef;
+        border-radius: 20px;
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+        border-color: transparent;
+      }
+      
+      .btn-kinder:hover{
+        background-color: transparent;
+        border-color: #7c90e7ef;
+        color: #7c90e7ef;
+      }
+      .llisting {
+        color: #182046ef;
+        font-size: 16px;
+    }
+    .llisting-textare{
+        color: #182046ef;
+        font-size: 16px;
+    }
+
+    .con-ins img {
+        width: 250px;
+    }
 
 }
 
 /* Estilos para el logo en dispositivos móviles (350px o menos de ancho) */
-@media (max-width: 350px) {}
+@media (max-width: 350px) {
+    .con-ins h1 {
+        font-size: 40px;
+    }
+}
