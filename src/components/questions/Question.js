@@ -1,5 +1,8 @@
-import React from 'react'
-import './Questions.css'
+import React from 'react';
+import { Formik, Form, Field, ErrorMessage } from 'formik';
+import * as Yup from 'yup';
+import './Questions.css';
+import QuestionContent from './QuestionContent';
 
 export default function Question() {
     return (
@@ -29,6 +32,19 @@ export default function Question() {
                     </div>
                 </div>
             </div>
+
+            <div className='container con-position d-flex justify-content-center pb-5'>
+                <div className='row con-ins p-3'>
+                    <div className='col-12 text-center pt-4'>
+                        <h1 className='text-center'>Encuesta</h1>
+                    </div>
+                    <div className='col-12 col-md-6 p-2'>
+                        <div className='pt-4'>
+                            <QuestionContent />
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-    )
+    );
 }
