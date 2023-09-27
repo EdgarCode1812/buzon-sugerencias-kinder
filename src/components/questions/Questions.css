@@ -144,6 +144,9 @@
 
 /* Estilos  en dispositivos móviles (768px o menos de ancho) */
 @media (max-width: 768px) {
+    .con-ins h1 {
+        font-size: 45px;
+    }
    
     .con-ins {
         margin-top: 50px;
