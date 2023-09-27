@@ -1,0 +1,37 @@
+.con-ins-table {
+    color: white;
+    width: 100%;
+    background: linear-gradient(89deg, #7c90e7dc 100%, #fffffff5 100%) 0% 0% no-repeat padding-box;
+    /* background-color: #7c90e7ef; */
+    border-radius: 35px;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.404);
+}
+
+.con-ins-table h1 {
+    font-size: 30px;
+    display: inline-block;
+    background: linear-gradient(90deg, #FF5733, #FFD700, #4BFF00, #3369FF, #3369FF);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+table {
+    width: 100%;
+    background-color: #526ff3;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.404);
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+}
+th:nth-child(1), td:nth-child(1) {
+    width: 15%;
+}
+th:nth-child(2), td:nth-child(2) {
+    width: 80%;
+}
+th:nth-child(3), td:nth-child(3) {
+    width: 5%;
+}

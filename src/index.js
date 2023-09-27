@@ -7,6 +7,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Question from './components/questions/Question';
 import Login from './components/admin/login/Login';
+import Table from './components/admin/table/Table';
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: "Login",
     element: <Login />
+  },
+  {
+    path: "Tabla",
+    element: <Table />
   }
 
 ])
