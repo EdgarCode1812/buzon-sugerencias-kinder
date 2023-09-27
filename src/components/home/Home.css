@@ -3,7 +3,7 @@
     overflow: hidden;
     width: 100%;
     height: 100vh;
-    background-color: black;
+    background-color: #7c90e7ef;
 }
 
 video {
@@ -56,8 +56,26 @@ video {
     filter: brightness(.6);
 }
 
-
-/*Boton inicio*/
+.img-cargando {
+    /* Inicialmente, la imagen está al 100% de su tamaño original */
+    transform: scale(1);
+  
+    /* Configura la animación */
+    animation: zoom 1.7s alternate infinite; /* 2 segundos de duración, alternar y repetir infinitamente */
+  }
+  
+  @keyframes zoom {
+    0% {
+      transform: scale(1); /* Tamaño original */
+    }
+    50% {
+      transform: scale(1.2); /* Aumento del 20% */
+    }
+    100% {
+      transform: scale(1); /* Volver al tamaño original */
+    }
+  }
+  
 
 /**modo responsivo/
 /* Estilos para tablets (768px a 1024px de ancho) */
