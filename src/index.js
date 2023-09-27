@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Question from './components/questions/Question';
+import Login from './components/admin/login/Login';
 
 const router = createBrowserRouter([
   {
@@ -15,7 +16,12 @@ const router = createBrowserRouter([
   {
     path: "Encuesta",
     element: <Question />
+  },
+  {
+    path: "Login",
+    element: <Login />
   }
+
 ])
 
 
