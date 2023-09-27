@@ -1,0 +1,26 @@
+.bg-navbar{
+    background-color: #7c90e750 !important;
+    height: 100%;
+}
+
+.btn-kinder-navbar {
+    position: relative;
+    z-index: 2;
+    background-color: #7c90e7ef;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    border-color: #7c90e7ef; 
+  }
+  
+  .btn-kinder-navbar:hover {
+    transform: scale(1.1);
+    background-color: #7c90e7ef;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    border-color: #7c90e7ef;
+  }
+  

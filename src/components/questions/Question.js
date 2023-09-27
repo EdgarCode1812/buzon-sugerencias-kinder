@@ -1,10 +1,12 @@
 import React from 'react';
 import './Questions.css';
 import QuestionContent from './QuestionContent';
+import Header from '../shared/navbar/Navbar';
 
 export default function Question() {
     return (
         <div className='bg-encuesta'>
+            <Header />
             <div className='container con-position d-flex justify-content-center'>
                 <div className='row con-ins p-3'>
                     <div className='col-md-4 text-center pt-3'>
@@ -40,6 +42,9 @@ export default function Question() {
                         <div className='pt-4'>
                             <QuestionContent />
                         </div>
+                    </div>
+                    <div className='col-12 col-md-6 p-2 bg-questions-web'>
+                       
                     </div>
                 </div>
             </div>

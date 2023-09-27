@@ -100,7 +100,7 @@
 }
 
 .btn-kinder{
-    
+    border-color: transparent;
     background-color: rgba(255, 255, 255, 0.349);
     border-radius: 20px;
     color: white;
@@ -113,6 +113,16 @@
     border-color: transparent;
     color: white;
   }
+
+  .bg-questions-web {
+    height: 100%;
+    background-image: url('../../assets/img/bg-questions-web.png');
+    background-position:  -10px 30%;
+    background-size: 80% auto; /* Ajusta el tamaño para cubrir todo el contenedor */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    transform: scaleX(-1); /* Aplica una transformación horizontal de espejo */
+  }
+  
 
 
 /**modo responsivo/
@@ -147,6 +157,11 @@
     .con-ins h1 {
         font-size: 45px;
     }
+
+    .bg-questions-web {
+    display: none;
+      }
+      
    
     .con-ins {
         margin-top: 50px;
