@@ -1,8 +1,9 @@
 .bg-footer{
+    width: 100%;
     position: relative;
     z-index: 2;
     background-color: #7c90e7;
-    color: black;
+    color: rgb(233, 231, 243);
     font-weight: 400;
 }
 .bg-footer a{
