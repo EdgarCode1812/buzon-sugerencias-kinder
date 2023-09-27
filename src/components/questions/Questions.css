@@ -1,0 +1,75 @@
+/* En tu archivo Questions.css */
+.bg-encuesta {
+    background-image: url('../../assets/img/bg-encuesta.jpg');
+    background-size: contain;
+    background-position: center;
+    height: 100vh;
+}
+
+.bg-encuesta::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.096);
+    z-index: 1;
+    /* Coloca el fondo oscuro encima de la imagen de fondo */
+}
+
+.con-position {
+    position: relative;
+    z-index: 2;
+}
+
+.con-ins {
+    color: white;
+    margin-top: 80px;
+    width: 90%;
+    background:linear-gradient(89deg, #7c90e7ef 20%, #ffff 70%) 0% 0% no-repeat padding-box;
+    /* background-color: #7c90e7ef; */
+    border-radius: 35px;
+    box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.404); 
+}
+
+.con-ins img {
+    width: 250px;
+}
+.con-ins p {
+    font-size: 15px;
+    font-weight: 500;
+   color: black;
+}
+
+/* En tu archivo Questions.css */
+.con-ins h1 {
+    font-size: 50px;
+    display: inline-block;
+    background: linear-gradient(90deg, #FF5733, #FFD700, #4BFF00, #3369FF, #3369FF);
+    /* Colores degradados para las letras */
+    background-clip: text;
+    -webkit-background-clip: text;
+    /* Para navegadores webkit como Chrome y Safari */
+    color: transparent;
+    /* Hace que el texto sea transparente */
+}
+
+
+/**modo responsivo/
+/* Estilos para tablets (768px a 1024px de ancho) */
+@media (min-width: 768px) and (max-width: 1024px) {}
+
+/* Estilos  en dispositivos móviles (768px o menos de ancho) */
+@media (max-width: 768px) {
+    .con-ins {
+        margin-top: 50px;
+        width: 100%;
+        background:linear-gradient(10deg, #ffff 5%, #7c90e7ef 70%) 0% 0% no-repeat padding-box;
+    }
+
+    
+}
+
+/* Estilos para el logo en dispositivos móviles (350px o menos de ancho) */
+@media (max-width: 350px) {}
