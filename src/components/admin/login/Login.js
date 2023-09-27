@@ -3,6 +3,7 @@ import './Login.css'
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import Footer from '../../shared/footer/Footer';
+import { useNavigate } from 'react-router-dom';
 
 const validationSchema = Yup.object().shape({
     correo: Yup.string().required('El correo es requerido'),
@@ -15,11 +16,12 @@ const initialValues = {
 };
 
 export default function Login() {
-
+    const navigate = useNavigate(); 
     const handleSubmit = (values, { resetForm }) => {
         // Aquí puedes manejar el envío de los datos del formulario
         console.log(values);
         resetForm();
+        navigate('/Tabla');
     };
 
     return (
